@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .headerNAV {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .headerNAV .headerA {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .headerNAV .headerA a {
+  color: black;
+  text-decoration: none;
+}
+header .headerNAV .allo {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headerNAV .allo {
+    display: block;
+  }
+  header .headerNAV .headerA {
+    display: none;
+  }
+}
+#EDUCATION {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/universityedu/assets/img/hero/h1_hero1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#EDUCATION .SCHOOL {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+#EDUCATION .SCHOOL .COURSES {
+  width: 100%;
+  min-height: 350px;
+}
+#EDUCATION .SCHOOL .COURSES h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+#EDUCATION .SCHOOL .COURSES p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#EDUCATION .SCHOOL .COURSES button {
+  width: 180px;
+  min-height: 60px;
+  background-color: #007A5C;
+  color: white;
+  border: none;
+}
+#EDUCATION .SCHOOL .COURSES button:hover {
+  background-color: white;
+  border: 2px solid #007A5C;
+  color: #007A5C;
+}
+
+#COMPREHENSIVE {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+#COMPREHENSIVE .TEACHING {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#COMPREHENSIVE .TEACHING img {
+  width: 100%;
+}
+#COMPREHENSIVE .TEACHING .Maecenas {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+#COMPREHENSIVE .TEACHING .Maecenas h1 {
+  font-weight: 800;
+}
+
+#PROGRAMS {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#PROGRAMS .OFFER {
+  width: 100%;
+  min-height: 700px;
+}
+#PROGRAMS .OFFER .felis {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#PROGRAMS .OFFER .felis div {
+  text-align: center;
+}
+#PROGRAMS .OFFER .Faculty {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: 1px solid rgb(161, 161, 161);
+  margin-top: 30px;
+}
+#PROGRAMS .OFFER .Faculty img {
+  width: 97%;
+  margin-bottom: 20px;
+}
+#PROGRAMS .OFFER .Faculty h3 {
+  margin-bottom: 20px;
+}
+
+#imges {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#imges .images {
+  width: 100%;
+  min-height: 300px;
+}
+#imges .images .felis {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#imges .images .felis div {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prodacts {
+  width: 100%;
+  min-height: 700px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#prodacts #myDiv {
+  width: 100%;
+  min-height: 400px;
+}
+#prodacts #myDiv .myBox {
+  text-align: center;
+}
+#prodacts #myDiv .myBox img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#prodacts #myDiv .myBox h3 {
+  margin-top: 20px;
+}
+#prodacts #myDiv .myBox h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#prodacts #myDiv .myBox button {
+  width: 100px;
+  min-height: 40px;
+  background-color: #007A5C;
+  color: white;
+  font-size: 800;
+  border: none;
+}
+#prodacts #myDiv .myBox button:hover {
+  background-color: white;
+  border: 2px solid #007A5C;
+  color: #007A5C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#prodactsAdd {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#prodactsAdd #tableDiv {
+  width: 100%;
+  border: 0.4px solid rgb(167, 167, 167);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#prodactsAdd #tableDiv .myBox {
+  width: 100%;
+  min-height: 130px;
+  border: 0.4px solid rgb(167, 167, 167);
+}
+#prodactsAdd #tableDiv .myBox td {
+  width: 25%;
+  min-height: 130px;
+  border: 0.4px solid rgb(167, 167, 167);
+  text-align: center;
+}
+#prodactsAdd #tableDiv .myBox td img {
+  width: 100px;
+  height: 60px;
+}
